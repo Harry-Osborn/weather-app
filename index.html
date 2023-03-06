@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>weatherify</title>
+    <link rel="icon" href="images/favicon (6).ico">
+</head>
+<body class="bg-cover" style="background-image: url(images/background.jpg);">
+    <header class="bg-transparent p-2">
+        <img src="images/clouds-and-sun.png" class="inline-block w-12 h-12 align-top">
+        <p class="inline-block font-extrabold text-4xl text-blue-900 align-bottom">WEATHERIFY</p>
+    </header>
+
+    <section class="flex justify-center mt-10">
+        <div class="flex flex-row rounded-full w-1/4 bg-white p-2">
+            <img src="images/search.png" class="w-10 h-10">
+            <input type="text" class="text-red-500 text-2xl font-bold px-3 w-full rounded-full outline-none placeholder:text-sm" placeholder="location...">
+        </div>
+    </section>
+
+    <div class="card flex flex-col items-center justify-center mt-14 p-3 hidden">
+        <div class="bg-gray-500 p-3 rounded-3xl  w-1/3">
+            <div class="flex justify-center w-fit">
+                <img src="https://via.placeholder.com/600x400/dedede/82a2c2?text=placeholder" class="time rounded-3xl">
+            </div>
+            <div class="flex justify-center">
+                <img src="" class="icon">
+            </div>
+            <div class="details flex flex-col items-center">
+                <p class="text-yellow-500 text-4xl font-bold p-2">city</p>
+                <p class="text-green-300 text-3xl font-semibold p-2">humidity</p>
+                <p class="text-orange-500 text-5xl font-extrabold pt-3">00&deg;C</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/forecast.js"></script>
+</body>
+</html>
